@@ -1,0 +1,104 @@
+header {
+ 
+    background:rgba(165, 42, 42, 0.849) url('../img/header-background.svg');
+    background-position: -20px;
+    background-size: cover;
+    height: 100%;
+}
+@font-face{
+    font-family: b yekan;
+    src: url('../fonts/B\ Yekan-.ttf');
+}
+@font-face{
+    font-family:iran sans;
+    src: url('../fonts/Iranian\ Sans.ttf');
+}
+.btn-sign{
+    width: 100px;
+    height: 35px;
+    color: white;
+}
+#log{
+    background: transparent;
+    border: 1px solid #F39C12;
+    transition: 0.2s;
+}
+#log:hover{
+background:#F39C12;
+}
+#reg{
+    background: transparent;
+    border:1px solid #7769CA;
+    transition: 0.2s;
+
+}
+#reg:hover{
+    background:#7769CA;
+    }
+.nav-link{
+    transition: 0.3s;
+    font-family: iran sans;
+}
+.user-section{
+font-family: b yekan;
+}
+
+.social-icons img{
+    transition: 0.3s;
+}
+.social-icons img:hover , .nav-link:hover{
+    transform: scale(1.1);
+}
+.nav-link:focus{
+    transform: scale(1.1);
+
+}
+.logo a{
+    font-family: b yekan;
+    display: block;
+    text-align: center;
+    font-size:180px;
+position: relative;
+top: 40px;}
+
+
+.logo{
+    transform: translateY(-60px);
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.input-group-prepend{
+    width: 15px;
+padding:2px;
+transition: 0.3s;
+float: left;
+vertical-align: middle;
+display: flex;
+    /* transform: translateY(10px); */
+}
+
+
+.input-group-prepend:hover{
+    transform: rotate(-90deg);
+}
+.date-time-picker input , .date-time-picker button{
+width: 180px;
+padding:5px;
+background: white;
+border: none;
+background: inherit;
+clear: right;
+}
+button img.icon-left{
+    transform: translateX(-100px);
+}
+.date-time-picker{
+   background: rgba(255, 255, 255, 0.781) !important;
+    padding: 10px;
+    transform: translateY(-40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

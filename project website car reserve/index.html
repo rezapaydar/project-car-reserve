@@ -1,0 +1,160 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+
+
+<script src="./js/prism/css-javascript.js"></script>
+<script src="./js/jquery-1.10.1.min.js"></script>
+<script src="./js/persianDatepicker.js"></script>
+<link rel="stylesheet" href="./css/style.css">
+<link type="text/css" rel="stylesheet" href="css/persianDatepicker-default.css" />
+<link type="text/css" rel="stylesheet" href="css/persianDatepicker-melon.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script type="text/javascript">
+    $(function () {
+        $(function () {
+            $("#simpleText").persianDatepicker();
+            $("#daterestor").persianDatepicker();
+
+
+        });
+    });
+</script>
+
+<body style="background: brown;">
+    <div class="cont-fluid">
+        <header class="w-100">
+            <nav class="nav w-100">
+                <nav class="navbar navbar-expand-md navbar-dark d-flex flex-row-reverse px-5"
+                    style="background-color: rgba(0, 0, 0, 0.527);width: 100%;">
+                    <div class="social-icons">
+                        <img src="./img/telegram (2).svg" alt="" class="mr-3">
+                        <img src="./img/whatsapp (2).svg" alt="" class="mr-3">
+                        <img src="./img/youtube (2).svg" alt="" class="">
+                    </div>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation"></button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav d-flex flex-row-reverse mr-auto mt-2 mt-lg-0 m-auto">
+                            <li class="nav-item active mx-2">
+                                <a class="nav-link" href="#" data-toggle="dropdown">خانه <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#" data-toggle="dropdown">ماشین عروس</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">ماشین های لوکس</a>
+
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="#" class="nav-link" data-toggle="dropdown">تخفیفات ویژه</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="#" class="nav-link" data-toggle="dropdown">سوالات متداول</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="user-section d-flex flex-column align-items-center mt-2">
+                        <div class="buttons">
+                            <button class="btn-sign rounded-pill mr-3" id="log">ورود</button>
+                            <button class="btn-sign rounded-pill" id="reg">ثبت نام</button>
+                        </div>
+
+                        <div class="dropdown open" style="margin-top:10px;direction: rtl;">
+                            <button class="btn btn-black text-white dropdown-toggle" type="button" id="triggerId"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ورود به عنوان کاربر مهمان
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#">خروج</button>
+                                <button class="dropdown-item disabled" href="#">ویرایش مشخصات</button>
+                                <button class="dropdown-item">پیگیری سفارش</button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </nav>
+            </nav>
+            <div class="logo">
+                <a class="navbar-brand h2" style="color: white;" href="#">ل<span
+                        style="color: aqua;display: inline;">و</span>گو</a>
+                <p style="color:white;text-align: center;" class="h4">شعار وب سایت ما این است</p>
+            </div>
+
+            <div class="date-time-picker rounded-pill w-75 d-flex flex-row-reverse justify-content-between m-auto">
+
+
+                <div class="dropdown open rtl" class="imgcont">
+                    <button aria-haspopup="true" class="d-flex  dropdown-toggle" data-toggle="dropdown"
+                        id="time-deliv">ساعت تحویل <img src="img/iconfinder_nav-arrow-left_383101.svg" alt="" class="mr-5 input-group-prepend clearfix"></button>
+                        
+                    <div class="dropdown-menu" aria-labelledby="time-deliv">
+                        <button class="dropdown-item">00:00</button>
+                        <button class="dropdown-item">00:15</button>
+                        <button class="dropdown-item">00:30</button>
+                        <button class="dropdown-item">00:45</button>
+                        <button class="dropdown-item">01:00</button>
+                        <button class="dropdown-item">01:15</button>
+                    </div>
+                </div>
+
+
+                <div class="date-deliv rtl">
+                <input type="text" id="simpleText" placeholder="تاریخ تحویل" /><img src="img/iconfinder_nav-arrow-left_383101.svg" alt="" class="mt-1 input-group-prepend">
+                </div>
+
+
+
+                <div class="dropdown open rtl" class="imgcont">
+                    <button aria-haspopup="true" class="dropdown-toggle float-right" data-toggle="dropdown" id="time-restor">
+                        ساعت بازگشت</button>
+                        <img src="img/iconfinder_nav-arrow-left_383101.svg" alt="" class="mt-1 input-group-prepend">
+                    <div class="dropdown-menu" aria-labelledby="time-restor">
+                        <button class="dropdown-item">00:00</button>
+                        <button class="dropdown-item">00:15</button>
+                        <button class="dropdown-item">00:30</button>
+                        <button class="dropdown-item">00:45</button>
+                        <button class="dropdown-item">01:00</button>
+                        <button class="dropdown-item">01:15</button>
+                    </div>
+                </div>
+
+
+
+                <div class="date-restor rtl">
+                    <div class="input-group"><input class="float-right" type="text" name="" id="daterestor" placeholder="تاریخ بازگشت"><img src="img/iconfinder_nav-arrow-left_383101.svg" alt="" class="input-group-prepend">
+                </div>
+
+
+            </div>
+
+
+
+        </header>
+    </div>
+</body>
+
+
+
+<script src="./js/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
