@@ -1,3 +1,5 @@
+
+
 header {
  
     background:rgba(165, 42, 42, 0.849) url('../img/header-background.svg');
@@ -57,7 +59,7 @@ font-family: b yekan;
     font-family: b yekan;
     display: block;
     text-align: center;
-    font-size:180px;
+    font-size:120px;
 position: relative;
 top: 40px;}
 
@@ -101,4 +103,8 @@ button img.icon-left{
     justify-content: center;
     align-items: center;
 
+}
+
+.arr1:{
+    transform: rotate(90deg);
 }
