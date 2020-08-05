@@ -1,110 +1,275 @@
-
-
 header {
- 
-    background:rgba(165, 42, 42, 0.849) url('../img/header-background.svg');
-    background-position: -20px;
+    background: url("../img/you-x-ventures-vbxyFxlgpjM-unsplash.jpg")no-repeat;
+    /* background-position: 0px; */
+    background-position: 10px 0;
     background-size: cover;
-    height: 100%;
+    height: 85%;
 }
-@font-face{
+
+@font-face {
     font-family: b yekan;
     src: url('../fonts/B\ Yekan-.ttf');
 }
-@font-face{
-    font-family:iran sans;
+
+@font-face {
+    font-family: iran sans;
     src: url('../fonts/Iranian\ Sans.ttf');
 }
-.btn-sign{
+
+@font-face {
+    font-family: shabnam;
+    src: url('../fonts/Shabnam.ttf');
+}
+
+@font-face {
+    font-family: vazir;
+    src: url('../fonts/Vazir.ttf');
+}
+
+p {
+    font-family: vazir;
+}
+h1{
+    font: shabnam;
+}
+
+.btn-sign {
+    font-family: shabnam;
     width: 100px;
     height: 35px;
-    color: white;
+    color: black;
 }
-#log{
+
+#log {
     background: transparent;
     border: 1px solid #F39C12;
     transition: 0.2s;
 }
-#log:hover{
-background:#F39C12;
+
+#log:hover {
+    background: #F39C12;
+    color: white;
 }
-#reg{
+
+#reg {
     background: transparent;
-    border:1px solid #7769CA;
+    border: 1px solid #7769CA;
     transition: 0.2s;
-
 }
-#reg:hover{
-    background:#7769CA;
-    }
-.nav-link{
+
+#reg:hover {
+    background: #7769CA;
+    color: white;
+}
+
+.nav-link {
+    z-index: 9999;
     transition: 0.3s;
-    font-family: iran sans;
-}
-.user-section{
-font-family: b yekan;
-}
-
-.social-icons img{
+    font-family: vazir;
     transition: 0.3s;
+    color: rgba(0, 0, 0, 0.459) !important;
 }
-.social-icons img:hover , .nav-link:hover{
-    transform: scale(1.1);
+.nav-link:hover{
+color: black !important;
 }
-.nav-link:focus{
-    transform: scale(1.1);
+
+.icon-logo a {
+    font-size: 40px;
+}
+
+.menu-hot-top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.whatsapp-number{
+    display: flex;
+}
+.whatsapp-number img{
+    width: 28px;
+    /* transform: translateY(-5px); */
+}
+.whatsapp-number p{
+    transform: translateY(8px);
+}
+
+.menu-hot-top .icons-brands img{
+width: 28px;
+transition: 0.5s;
 
 }
-.logo a{
+.menu-hot-top .icons-brands img:hover{
+transform: rotate(360deg);
+
+}
+.social-icons {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social-icons p {
+    color: black;
+    font-size: 70%;
+}
+
+.social-icons p:nth-child(1) {
+    transform: translateY(10px);
+}
+
+.slogan {
+    transform: translateY(10px);
+    vertical-align: middle;
+}
+
+/* .nav-link:focus{
+    transform: scale(1.1);
+
+} */
+
+.slogan {
+    text-align: right;
+}
+
+.logo a {
     font-family: b yekan;
     display: block;
     text-align: center;
-    font-size:120px;
-position: relative;
-top: 40px;}
-
-
-.logo{
-    transform: translateY(-60px);
+    font-size: 120px;
+    
 }
+
+.logo-text{
+    background: rgba(85, 84, 84, 0.233);
+padding: 5px;
+transform: translateY(10px);
+}
+.logo-text p{
+    transform: translateY(-20px);
+}
+
 .dropdown-toggle::after {
     display: none !important;
 }
-.input-group-prepend{
+.lorem{
+    display: flex;
+    justify-content: center;
+}
+
+.input-group-prepend {
     width: 15px;
-padding:2px;
-transition: 0.3s;
-float: left;
-vertical-align: middle;
-display: flex;
+    padding: 2px;
+    transition: 0.2s;
+    float: left;
+    vertical-align: middle;
+    display: flex;
     /* transform: translateY(10px); */
 }
 
+/* .input-group-prepend:hover{
+    transform: rotate(-90deg);
+} */
 
-.input-group-prepend:hover{
+.input-group-prepend: {
     transform: rotate(-90deg);
 }
-.date-time-picker input , .date-time-picker button{
-width: 180px;
-padding:5px;
-background: white;
-border: none;
-background: inherit;
-clear: right;
+
+.date-time-picker input, .date-time-picker button {
+    width: 180px;
+    padding: 5px;
+    background: white;
+    border: none;
+    background: inherit;
+    clear: right;
 }
-button img.icon-left{
-    transform: translateX(-100px);
+div.search-box-combo{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-between;
 }
-.date-time-picker{
-   background: rgba(255, 255, 255, 0.781) !important;
-    padding: 10px;
-    transform: translateY(-40px);
+.icon-down-arrow{
+    transform: translateX(25%);
+}
+.icon-down-arrow img{
+    width: 10%;
+    transition: 0.2s;
+    /* transition: 0.2s; */
+}
+
+
+
+.coll-search-menu{
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+}
+.text-search-menu{
+    transition: 0.2s;
 
 }
+.coll-search-menu:hover .text-search-menu{
+margin-bottom: 30px;
+}
+#cont-search{
+    height: 150px;
+    transform: translateY(20px);
+    font-family: vazir;
+}
+.coll-search-menu button{
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+}
+.img-counter-arrow-left{
+font-size: 30px;
+}
+.coll-search-menu button p{
+    margin-left: 0px;
+    transform: translateY(10px);
+    transition: 0.2s;
+}
+.coll-search-menu button p:hover{
+    margin-left: 20px;
+    transform: translateY(10px);
+}
+.cont-img,.card-body{
+margin:0 auto;
 
-.arr1:{
-    transform: rotate(90deg);
+}
+.card-body{
+    position: relative;
+    /* transform: translatex(10px); */
+}
+p.h6{
+    font-size: 70%;
+    text-align: center;
+}
+.cards-icons{
+    position: relative;
+    top:-2350px;
+}
+.cont-img{
+    box-shadow: 0 0 50px 2px rgba(0, 0, 0, 0.945);
+    transition: 0.2s;
+}
+.card-icon{
+    transition: 0.5s;
+}
+.card-icon:hover{
+transform: scale(1.1);
+
+}
+.best-serv{
+    position: relative;
+    top:-1700px;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.514);
+}
+
+.glass{
+    width: 5%;
+    height: 220px;
+    transform: translateY(-237px);
+    transform: rotate(-45deg);
 }

@@ -28,16 +28,35 @@
     });
 </script>
 
-<body>
+<body style="background: #f8f8f8;">
     <div class="cont-fluid">
+        <div class="menu-hot-top w-100 px-5 py-1 ">
+            <div class="icons-brands">
+                <img src="./img/facebook.png" alt="">
+                <img src="./img/linkedin.png" alt="">
+                <img src="./img/twitter.png" alt="">
+                <img src="./img/youtube.png" alt="">
+            </div>
+            <div class="whatsapp-number">
+                <p class="pt-1 pr-2">09121000000</p>
+                <img src="img/whatsapp (2).svg" alt="">
+            </div>
+        </div>
         <header class="w-100">
             <nav class="nav w-100">
-                <nav class="navbar navbar-expand-md navbar-dark d-flex flex-row-reverse px-5"
-                    style="background-color: rgba(0, 0, 0, 0.527);width: 100%;">
+                <nav class="navbar navbar-expand-md shadow navbar-dark d-flex flex-row-reverse px-5"
+                    style="background-color: white;width: 100%;">
                     <div class="social-icons">
-                        <img src="./img/telegram (2).svg" alt="" class="mr-3">
-                        <img src="./img/whatsapp (2).svg" alt="" class="mr-3">
-                        <img src="./img/youtube (2).svg" alt="" class="">
+
+                        <div class="icon-logo">
+                            <a class="navbar-brand d-block h2" style="color: black;" href="#">ل<span
+                                    style="color: aqua;display: inline;">و</span>گو</a>
+                        </div>
+                        <div class="slogan mx-3">
+                            <p>شعار وب سایت ما این است</p>
+                            <p>this is a logo for this website</p>
+                        </div>
+
                     </div>
                     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                         data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -45,33 +64,33 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav d-flex flex-row-reverse mr-auto mt-2 mt-lg-0 m-auto">
                             <li class="nav-item active mx-2">
-                                <a class="nav-link" href="#" data-toggle="dropdown">خانه <span
+                                <a class="nav-link =" href="#" data-toggle="dropdown">خانه <span
                                         class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="#" data-toggle="dropdown">ماشین عروس</a>
+                                <a class="nav-link " href="#" data-toggle="dropdown">ماشین عروس</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">ماشین های لوکس</a>
+                                <a class="nav-link =" href="#" id="dropdownId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">ماشین های لوکس</a>
 
                             </li>
                             <li class="nav-item mx-2">
-                                <a href="#" class="nav-link" data-toggle="dropdown">تخفیفات ویژه</a>
+                                <a href="#" class="nav-link =" data-toggle="dropdown">تخفیفات ویژه</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a href="#" class="nav-link" data-toggle="dropdown">سوالات متداول</a>
+                                <a href="#" class="nav-link =" data-toggle="dropdown">سوالات متداول</a>
                             </li>
                         </ul>
 
                     </div>
-                    <div class="user-section d-flex flex-column align-items-center mt-2">
+                    <div class="user-section d-flex flex-column align-items-center my-2">
                         <div class="buttons">
-                            <button class="btn-sign rounded-pill mr-3" id="log">ورود</button>
-                            <button class="btn-sign rounded-pill" id="reg">ثبت نام</button>
+                            <button class="btn-sign  rounded-pill mr-3" id="log">ورود</button>
+                            <button class="btn-sign  rounded-pill" id="reg">ثبت نام</button>
                         </div>
 
-                        <div class="dropdown open" style="margin-top:10px;direction: rtl;">
+                        <!-- <div class="dropdown open" style="margin-top:10px;direction: rtl;">
                             <button class="btn btn-black text-white dropdown-toggle" type="button" id="triggerId"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ورود به عنوان کاربر مهمان
@@ -82,74 +101,145 @@
                                 <button class="dropdown-item">پیگیری سفارش</button>
 
                             </div>
-                        </div>
+                        </div> -->
 
 
                     </div>
                 </nav>
             </nav>
             <div class="logo">
-                <a class="navbar-brand h2" style="color: white;" href="#">ل<span
-                        style="color: aqua;display: inline;">و</span>گو</a>
-                <p style="color:white;text-align: center;" class="h4">شعار وب سایت ما این است</p>
-            </div>
-
-            <div class="date-time-picker rounded-pill w-75 d-flex flex-row-reverse justify-content-between m-auto">
-
-
-                <div class="dropdown open rtl" class="imgcont">
-                    <button aria-haspopup="true" class="d-flex  dropdown-toggle" data-toggle="dropdown"
-                        id="time-deliv">ساعت تحویل <img src="img/iconfinder_nav-arrow-left_383101.svg" alt="" class="arr mr-5 input-group-prepend clearfix"></button>
-                        
-                    <div class="dropdown-menu" aria-labelledby="time-deliv">
-                        <button class="dropdown-item">00:00</button>
-                        <button class="dropdown-item">00:15</button>
-                        <button class="dropdown-item">00:30</button>
-                        <button class="dropdown-item">00:45</button>
-                        <button class="dropdown-item">01:00</button>
-                        <button class="dropdown-item">01:15</button>
+                <div class="logo-text">
+                    <a class="navbar-brand h2" style="color: white;" href="#">ل<span style="color: aqua;">و</span>گو</a>
+                    <p style="color:white;text-align: center;" class="h6">شعار وب سایت ما این است</p>
+                    <div class="lorem">
+                        <p class="w-50 align-center" style="color: white;text-align: center;">لورم ایپسوم متن ساختگی با
+                            تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                            کاربردهای متنوع با هدف </p>
                     </div>
                 </div>
-
-
-                <div class="date-deliv rtl">
-                <input type="text" id="simpleText" placeholder="تاریخ تحویل" /><img src="img/iconfinder_nav-arrow-left_383101.svg" alt="" class="arr mt-1 input-group-prepend">
-                </div>
-
-
-
-                <div class="dropdown open rtl" class="imgcont">
-                    <button aria-haspopup="true" class="dropdown-toggle float-right" data-toggle="dropdown" id="time-restor">
-                        ساعت بازگشت</button>
-                        <img src="img/iconfinder_nav-arrow-left_383101.svg" alt="" class="arr mt-1 input-group-prepend">
-                    <div class="dropdown-menu" aria-labelledby="time-restor">
-                        <button class="dropdown-item">00:00</button>
-                        <button class="dropdown-item">00:15</button>
-                        <button class="dropdown-item">00:30</button>
-                        <button class="dropdown-item">00:45</button>
-                        <button class="dropdown-item">01:00</button>
-                        <button class="dropdown-item">01:15</button>
-                    </div>
-                </div>
-
-
-
-                <div class="date-restor rtl">
-                    <div class="input-group"><input class="float-right" type="text" name="" id="daterestor" placeholder="تاریخ بازگشت"><img src="img/iconfinder_nav-arrow-left_383101.svg" alt="" class="arr input-group-prepend">
-                </div>
-
-
             </div>
 
+            <div id="cont-search" class="w-100 d-flex rtl justify-content-center">
+
+                <div class="search-box-combo d-flex w-75 shadow-lg  bg-light rounded">
+
+                    <div class="coll-search-menu">
+                        <p class="text-search-menu">محل خدمت</p>
+                        <div class="icon-down-arrow">
+                            <img src="img/down-arrow.svg" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="coll-search-menu">
+                        <p class="text-search-menu">نوع خدمت</p>
+                        <div class="icon-down-arrow">
+                            <img src="img/down-arrow.svg" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="coll-search-menu">
+                        <p class="text-search-menu">زمان خدمت</p>
+                        <div class="icon-down-arrow">
+                            <img src="img/down-arrow.svg" alt="" srcset="">
+
+                        </div>
+                    </div>
+
+                    <div class="coll-search-menu">
+
+                        <button class="btn-primary rounded-right btn-search d-flex flex-row-reverse">
+                            <div class="img-counter-arrow-left">
+                                &larr;
+                            </div>
+                            <p>جست و جو</p>
+                        </button>
 
 
-        </header>
+                    </div>
+
+                </div>
+
+            </div>
     </div>
+
+
+
+    </header>
+    <main class="w-100">
+        <img src="img/Layer 2.svg" alt="" class="w-100">
+        <img src="img/object2.svg" alt="" class="w-100">
+        <img src="img/object3.svg" alt="" class="w-100">
+
+       <div class="cards-icons w-75 d-flex m-auto ">
+           <div class="card-icon w-25 m-1 p-1">
+            <div class="cont-img bg-white w-75 shadow-lg p-2 rounded-top">
+                <img src="img/believe.png" alt="" class="w-100">
+            </div>
+               <div class="card-body w-75 h-auto bg-white shadow-lg rounded-bottom">
+<p class="text-center">اعتماد و اطمینان</p>
+<p class="h6">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+</p>
+               </div>
+           </div>
+           <div class="card-icon w-25 m-1 p-1">
+            <div class="cont-img bg-white w-75 shadow-lg p-2 rounded-top">
+                <img src="img/login.png" alt="" class="w-100">
+            </div>
+            <div class="card-body w-75 h-auto bg-white shadow-lg rounded-bottom">
+                <p class="text-center">امنیت اطلاعات</p>
+                <p class="h6">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                </p>
+            </div>
+        </div>
+
+        <div class="card-icon w-25  m-1 p-1">
+            <div class="cont-img bg-white w-75 shadow-lg p-2 rounded-top">
+                <img src="img/money.png" alt="" class="w-100">
+            </div>
+            <div class="card-body w-75 h-auto bg-white shadow-lg rounded-bottom">
+                <p class="text-center">بیمه شخص ثالت</p>
+                <p class="h6">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                </p>
+            </div>
+        </div>
+
+        <div class="card-icon w-25  m-1 p-1">
+            <div class="cont-img bg-white w-75 shadow-lg  rounded-top">
+                <img src="img/online-learning.png" alt="" class="w-100">
+            </div>
+            <div class="card-body w-75 h-auto shadow-lg bg-white rounded-bottom">
+                <p class="text-center">دارای مجوز از وزارت کار</p>
+                <p class="h6">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                </p>
+            </div>
+        </div>
+       </div>
+            
+       <div class="best-serv w-100  p-5">
+    <div class="text-center w-50 m-auto">
+        <h1 class="text-center">بهترین خدمات را از ما بگیرید</h1>
+        <p class="text-center"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون </p>
+
+    </div> 
+    </div>
+       
+    <div class="glass-icon-cont w-100 h-50 px-5">
+        <div class="glass-icon rounded w-auto">
+            <img src="img/img-team.svg" alt="" class="w-25">
+            <div class="glass  bg-white"></div>
+        </div>
+    </div>
+
+    </main>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 </body>
 
 
 
 <script src="./js/scripts.js"></script>
+<script src="js/jquery-1.10.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
