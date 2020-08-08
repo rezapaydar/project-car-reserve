@@ -30,7 +30,7 @@ p {
     font-family: vazir;
 }
 h1{
-    font: shabnam;
+    font: b yekan;
 }
 
 .btn-sign {
@@ -268,9 +268,37 @@ transform: scale(1.1);
 }
 
 .glass{
+<<<<<<< HEAD
     width: 5%;
     height: 220px;
     transform: translateY(-237px);
     /* transform: rotate(0deg); */
     transform: rotate(50deg);
+=======
+    /* transition: 0.5s; */
+animation:anim-shuttle infinite 25s;
+/* animation-delay: 4s; */
+}
+@keyframes anim-shuttle{
+    2%{transform: translateY(-5px);}
+    4%{transform: translateY(0px);}
+    6%{transform: translateY(-5px);}
+    8%{transform: translateY(0px);}
+    10%{transform: translateY(-5px);}
+    12%{transform: translateY(0px);}
+    14%{transform: translateY(-5px);}
+   16%{transform: translateY(0px);}
+   18%{transform: translateY(-5px);}
+   20%{transform: translateY(0px);}
+   /* 25%{transform: translateY(-80px);transform: rotate(22deg);} */
+   27%{transform: translateY(-160px);transform: rotate(70deg);}
+   /* 29%{transform: translateY(-160px);transform: rotate(45deg);} */
+   30%{transform: rotate(45deg);transform: translate(1500px , -500px)}
+   40%{transform: rotate(270deg);transform: rotate(45deg);transform: translate(1500px ,1000px)
+
+   }
+   60%{
+       
+   }
+>>>>>>> origin
 }
