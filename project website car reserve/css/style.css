@@ -271,5 +271,6 @@ transform: scale(1.1);
     width: 5%;
     height: 220px;
     transform: translateY(-237px);
-    transform: rotate(-45deg);
+    /* transform: rotate(0deg); */
+    transform: rotate(50deg);
 }
