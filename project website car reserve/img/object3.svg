@@ -8,20 +8,24 @@
 	.st2{opacity:0.17;fill:url(#Path_10_1_);enable-background:new    ;}
 </style>
 <g id="Layer_1">
-	<linearGradient id="Path_8_1_" gradientUnits="userSpaceOnUse" x1="0" y1="425" x2="1366" y2="425">
-		<stop  offset="0" style="stop-color:#6623CC"/>
-		<stop  offset="0.9735" style="stop-color:#483ACE"/>
+	
+		<linearGradient id="Path_8_1_" gradientUnits="userSpaceOnUse" x1="706.5206" y1="164.1358" x2="674.8405" y2="515.4958" gradientTransform="matrix(-1 0 0 -1 1366 850)">
+		<stop  offset="0" style="stop-color:#002393"/>
+		<stop  offset="1" style="stop-color:#483ACE"/>
 	</linearGradient>
-	<path id="Path_8" class="st0" d="M0,302v548l927-93.4l175-17.6c0,0,264-46,264-191V0L424,94.9L264,111C264,111,0,157,0,302z"/>
-	<linearGradient id="Path_9_1_" gradientUnits="userSpaceOnUse" x1="927" y1="540.315" x2="1366" y2="540.315">
-		<stop  offset="0" style="stop-color:#6623CC"/>
-		<stop  offset="0.9735" style="stop-color:#483ACE"/>
+	<path id="Path_8" class="st0" d="M1102,111L942,94.9L0,0l0,548c0,145,264,191,264,191l175,17.6l927,93.4V302
+		C1366,157,1102,111,1102,111z"/>
+	
+		<linearGradient id="Path_9_1_" gradientUnits="userSpaceOnUse" x1="1155.9708" y1="204.66" x2="1124.2908" y2="556.02" gradientTransform="matrix(-1 0 0 -1 1366 850)">
+		<stop  offset="0" style="stop-color:#002393"/>
+		<stop  offset="1" style="stop-color:#483ACE"/>
 	</linearGradient>
-	<path id="Path_9" class="st1" d="M927,324v432.6l175-17.6c0,0,264-46,264-191V324H927z"/>
-	<linearGradient id="Path_10_1_" gradientUnits="userSpaceOnUse" x1="0" y1="301.94" x2="424" y2="301.94">
-		<stop  offset="0" style="stop-color:#6623CC"/>
-		<stop  offset="0.9735" style="stop-color:#483ACE"/>
+	<path id="Path_9" class="st1" d="M0,324l0,224c0,145,264,191,264,191l175,17.6V324H0z"/>
+	
+		<linearGradient id="Path_10_1_" gradientUnits="userSpaceOnUse" x1="250.3239" y1="123.0033" x2="218.6439" y2="474.3633" gradientTransform="matrix(-1 0 0 -1 1366 850)">
+		<stop  offset="0" style="stop-color:#002393"/>
+		<stop  offset="1" style="stop-color:#483ACE"/>
 	</linearGradient>
-	<path id="Path_10" class="st2" d="M0,302v207h424V94.9L264,111C264,111,0,157,0,302z"/>
+	<path id="Path_10" class="st2" d="M1102,111L942,94.9V509h424V302C1366,157,1102,111,1102,111z"/>
 </g>
 </svg>
