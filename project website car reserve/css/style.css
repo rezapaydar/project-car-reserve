@@ -243,12 +243,12 @@ div.search-box-combo {
 }
 
 .coll-search-menu button p {
-    margin-left: 0px;
+    margin-left: 5px;
     transform: translateY(10px);
     transition: 0.2s;
 }
 
-.coll-search-menu button p:hover {
+.coll-search-menu button:hover p{
     margin-left: 20px;
     transform: translateY(10px);
 }
@@ -269,7 +269,7 @@ p.h6 {
 
 .cards-icons {
     position: relative;
-    top: -2350px;
+    /* top: -2350px; */
 }
 
 .cont-img {
@@ -287,7 +287,7 @@ p.h6 {
 
 .best-serv {
     position: relative;
-    top: -1950px;
+    /* top: -1950px; */
     z-index: 99;
     background: rgba(255, 255, 255, 0.514);
 }
@@ -329,7 +329,8 @@ p.h6 {
 }
 
 .glass-icon-cont {
-    transform: translateY(-1600px);
+    margin-button: ;
+    /* transform: translateY(-1600px); */
 }
 
 .about-us-text {
@@ -382,7 +383,7 @@ p.h6 {
 }
 
 .about-us-text {
-    transform: translateY(50px);
+    /* transform: translateY(50px); */
 }
 #img-one{
     transform: rotate(-270deg);
@@ -406,11 +407,11 @@ box-shadow: 0 15px 10px 5px rgba(180, 180, 180, 0.466);
 
 }
  .favorite,.suggestions,.iranian-cars{
-    transform: translateY(-1300px);
+    /* transform: translateY(-1300px); */
 
 } 
 .suggestions{
-    transform: translateY(-1500px);
+    /* transform: translateY(-1500px); */
 } 
 
 #title-suggestion , .suggestion{
@@ -457,10 +458,10 @@ img[img="one"]{
 }
 .cont-specially{
     overflow: hidden;
-    margin-bottom: 400px;
+    /* margin-bottom: 400px; */
 }
 img[alt="bg"]{
-    transform: translateY(200px);
+    /* transform: translateY(200px); */
     /* z-index: 999; */
 }
 img[alt="bg-down"]{
@@ -476,4 +477,12 @@ img[alt="bg-down"]{
     color: white;
     background: black !important;
     text-align: center;
+}
+#img-one,#img-two,.swiper-button-prev,.swiper-button-next{
+    transition: 0.2s;
+}
+#img-one:hover,#img-two:hover,.swiper-button-prev:hover,.swiper-button-next:hover{
+    /* transform: scale(1.1); */
+    width: 105%;
+    height: 105%;
 }
